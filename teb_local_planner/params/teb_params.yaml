@@ -23,14 +23,14 @@ controller_server:
           
       # Robot
               
-      max_vel_x: 0.26
+      max_vel_x: 1.0
       max_vel_theta: 1.0 
-      acc_lim_x: 2.5
-      acc_lim_theta: 3.2
+      acc_lim_x: 1.0
+      acc_lim_theta: 1.0
 
       footprint_model: # types: "point", "circular", "two_circles", "line", "polygon"
         type: "circular"
-        radius: 0.17 # for type "circular"
+        radius: 0.6 # for type "circular"
 
       # GoalTolerance
               
